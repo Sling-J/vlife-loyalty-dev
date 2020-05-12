@@ -1,0 +1,2 @@
+export const REQUEST_CLP_INFO = 'REQUEST_CLP_INFO'
+export const SET_CLP_INFO = 'SET_CLP_INFO'

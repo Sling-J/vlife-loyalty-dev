@@ -1,0 +1,9 @@
+{
+    "name": "VLife Progressive Web App",
+    "short_name": "VLife",
+    "description": "VLife - is a first SuperAPp",
+    "icons": [
+    ],
+    "start_url": "index.html",
+    "display": "fullscreen"
+}

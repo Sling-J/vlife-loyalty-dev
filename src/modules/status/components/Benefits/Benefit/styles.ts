@@ -1,0 +1,52 @@
+import { createUseStyles } from 'react-jss'
+
+export const useStyles = createUseStyles(() => ({
+  benefitWrapper: ({ hasShadow }) => ({
+    textDecoration: 'none',
+    minWidth: 104,
+    maxWidth: 104,
+    minHeight: 160,
+    maxHeight: 160,
+    display: 'flex',
+    flexDirection: 'column',
+    position: 'relative',
+    filter: hasShadow ? 'grayscale(100%)' : 'none',
+  }),
+  benefit: {
+    display: 'flex',
+    flex: '1 1 100%',
+    flexDirection: 'column',
+    alignItems: 'center',
+    boxShadow: '0px 2px 8px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.2)',
+    background: 'linear-gradient(0deg, #EEDA98, #EEDA98), #F9365E',
+    borderRadius: 8,
+    paddingTop: 8,
+    position: 'relative',
+  },
+  benefitImg: {
+    minWidth: 88,
+    maxWidth: 88,
+    minHeight: 88,
+    maxHeight: 88,
+    marginBottom: 8,
+    borderRadius: 2,
+  },
+  benefitTitle: {
+    color: '#000000',
+    fontSize: 12,
+    lineHeight: '14px',
+    textAlign: 'center',
+  },
+  merchantLogo: {
+    position: 'absolute',
+    left: 36,
+    top: 72,
+    minWidth: 32,
+    maxWidth: 32,
+    minHeight: 32,
+    maxHeight: 32,
+    border: '2px solid #FFFFFF',
+    boxSizing: 'border-box',
+    borderRadius: '50%',
+  },
+}))

@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+  .Toastify__toast-container {
+    width: 80%;
+  }
+
+  .Toastify__toast-container--bottom-right {
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+  }
+
+  .Toastify__toast {
+    margin-bottom: 1rem;
+  }
+}

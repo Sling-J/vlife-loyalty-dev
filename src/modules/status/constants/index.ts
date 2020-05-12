@@ -1,0 +1,2 @@
+export const REQUEST_CLUB_INFO = 'REQUEST_CLUB_INFO'
+export const SET_CLUB_INFO = 'SET_CLUB_INFO'

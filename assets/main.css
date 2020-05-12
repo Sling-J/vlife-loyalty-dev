@@ -1,0 +1,13 @@
+@import "normalize.css";
+@import "transition.css";
+@import '~react-toastify/dist/ReactToastify.min.css';
+@import "toastify.css";
+
+body {
+  font-family: 'Roboto', serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.route-wrapper {
+  grid-area: main;
+}

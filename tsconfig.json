@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "pretty": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "lib": ["dom", "es6", "esnext"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "assets": ["assets"],
+      "src": ["src"],
+      "lib": ["lib"],
+      "ui": ["src/ui"],
+      "root": ["src/modules/root"],
+      "status": ["src/modules/status"],
+      "status/actions": ["src/modules/status/actions"],
+      "bonuses": ["src/modules/bonuses"],
+      "promotions": ["src/modules/promotions"],
+      "cards": ["src/modules/cards"]
+    }
+  },
+  "exclude": ["node_modules", "src/settings/i18n.js"]
+}
